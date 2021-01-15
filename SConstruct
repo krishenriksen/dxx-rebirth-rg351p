@@ -3593,7 +3593,7 @@ class DXXCommon(LazyObjectConstructor):
 					raise SCons.Errors.UserError('Invalid value for unsigned-integer-only option %s: %s.' % (key, value))
 		# Paths for the Videocore libs/includes on the Raspberry Pi
 		RPI_DEFAULT_VC_PATH='/opt/vc'
-		default_OGLES_LIB = 'GLES_CM'
+		default_OGLES_LIB = 'GLESv1_CM'
 		default_EGL_LIB = 'EGL'
 		_default_prefix = '/usr/local'
 		__stdout_is_not_a_tty = None
